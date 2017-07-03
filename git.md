@@ -4,10 +4,9 @@ Git commands
 Setup Github account
 ======
 
-ssh-keygen -t rsa -b 4096 
-eval $(ssh-agent -s)
-
-Copy ~/.ssh/gt_rsa.pub  to Github.com
+  - $ ssh-keygen -t rsa -b 4096
+  - $ eval $(ssh-agent -s)
+  - Copy ~/.ssh/gt_rsa.pub  to Github.com
 
 
 Useful Commands
