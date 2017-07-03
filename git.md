@@ -79,5 +79,7 @@ git merge --no-ff <branch>
 Resources:
 
 https://walty8.com/comparison-of-git-and-svn/
+
 https://deveo.com/git-vs-svn/
+
 https://www.atlassian.com/git/tutorials/rewriting-history
