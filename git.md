@@ -56,6 +56,7 @@ To push local branch to remote
 ```sh
 git push origin staging
 ```
+On the website github.com, you can create a pull request and merge to master branch
 
 Other useful commands:
 ```sh
