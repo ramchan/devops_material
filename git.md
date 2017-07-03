@@ -4,9 +4,21 @@ Git commands
 Setup Github account
 ======
 
-  - $ ssh-keygen -t rsa -b 4096
-  - $ eval $(ssh-agent -s)
-  - Copy ~/.ssh/gt_rsa.pub  to Github.com
+Create a new user in https://github.com
+
+There are two ways to authenticate to github from your laptop.
+
+  - First using github.com credentials used to login to website
+  - Second using ssh keys generated on your laptop and uploaded to github.com
+
+Generate ssh keys on your local laptop:
+```sh
+$ ssh-keygen -t rsa -b 4096
+```
+Start the agent:
+```sh
+$ eval $(ssh-agent -s)
+Upload the keys -> Copy ~/.ssh/git_rsa.pub  to Github.com
 
 
 Useful Commands
