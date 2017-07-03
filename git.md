@@ -18,12 +18,43 @@ $ ssh-keygen -t rsa -b 4096
 Start the agent:
 ```sh
 $ eval $(ssh-agent -s)
+```
 Upload the keys -> Copy ~/.ssh/git_rsa.pub  to Github.com
 
 
-Useful Commands
+Git Operations
 ======
 
+Creating new repository:
+```sh
+Login to github.com, under Repositories tab, create a new repositoty called "testing"
+```
+
+Cloning repository:
+```sh
+git clone https://github.com/USERNAME/testing.git
+```
+
+Branch:
+```sh
+git branch
+```
+To create new branch and switch to it:
+```sh
+git checkout -b staging
+```
+
+File operations:
+```sh
+git add a.txt
+git add *
+git commit -a -m "Added files"
+```
+
+To push local branch to remote
+```sh
+git push origin staging
+```
 git add * 
 git rm * (SVN DELETE)
 git commit -a -m "Comment "
