@@ -39,9 +39,10 @@ Branch:
 ```sh
 git branch
 ```
-To create new branch and switch to it:
+To create new branch locally and switch to it:
 ```sh
 git checkout -b staging
+git branch
 ```
 
 File operations:
@@ -55,26 +56,19 @@ To push local branch to remote
 ```sh
 git push origin staging
 ```
-git add * 
-git rm * (SVN DELETE)
-git commit -a -m "Comment "
-git push -u origin
-git push --follow-tags
+
+Other useful commands:
+```sh
 git tag -a "tagname" -m "Comment"
-git tag "tagname" -lw 
-git show *
-git branch -m "new branch"
-git push origin <tag_name>
-git log --pretty=oneline
-git tag -a v1.2 9fceb02
-git checkout -b version2 v2.0.0
+git tag "tagname" -lw
 git push --tags
+git log --pretty=oneline
+```
+
+Merging:
+```sh
+In Git, branches are a part of your everyday development process. When you want to add a new feature or fix a bug—no matter how big or how small—you spawn a new branch to encapsulate your changes. This makes sure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.
 git merge <branch>
 git merge --no-ff <branch>
+```
 
-git merge --ff <branch>
-In Git, branches are a part of your everyday development process. When you want to add a new feature or fix a bug—no matter how big or how small—you spawn a new branch to encapsulate your changes. This makes sure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.
-
-2 ways to merge : FF (Facilitated via Rebasing) or 3 way merge. 
-
-While you can use either of these merge strategies, many developers like to use fast-forward merges (facilitated through rebasing) for small features or bug fixes, while reserving 3-way merges for the integration of longer-running features. In the latter case, the resulting merge commit serves as a symbolic joining of the two branches.
