@@ -49,6 +49,8 @@ File operations:
 ```sh
 git add a.txt
 git add *
+git rm b.txt
+git rm *
 git commit -a -m "Added files"
 ```
 
