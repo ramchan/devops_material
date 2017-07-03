@@ -66,8 +66,8 @@ git log --pretty=oneline
 ```
 
 Merging:
-```sh
 In Git, branches are a part of your everyday development process. When you want to add a new feature or fix a bug—no matter how big or how small—you spawn a new branch to encapsulate your changes. This makes sure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.
+```sh
 git merge <branch>
 git merge --no-ff <branch>
 ```
