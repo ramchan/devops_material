@@ -24,7 +24,9 @@ Give the same creds as in website
 ```
 ```sh
 docker pull nginx:latest
+docker images
 docker run -itd nginx 
+docker ps
 docker exec -it <image_id> bash
 docker attach <image_id>
 ```
