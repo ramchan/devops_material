@@ -1,7 +1,7 @@
 FROM nginx:latest
 MAINTAINER <ram@gmail.com>
 RUN apt-get update && apt-get install -y \
-	net-tools
+	net-tools \
 	telnet
 ENV MYVAR DEVOPS
 EXPOSE 8090
