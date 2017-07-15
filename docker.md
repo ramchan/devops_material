@@ -81,6 +81,9 @@ Try on browser - http://localhost:8080
 Resources
 ======
 https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/
+
 https://docs.docker.com/engine/swarm/swarm-tutorial/
+
 https://kubernetes.io/docs/tutorials/stateless-application/hello-minikube/
+
 https://blog.codeship.com/getting-started-with-kubernetes/
