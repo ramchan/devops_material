@@ -78,6 +78,6 @@ Misc
 ```sh
 facter
 facter -p
-hiera -c hiera.yaml sshservicename osfamily=Debian
+hiera -c /etc/puppet/hiera.yaml sshservicename osfamily=Debian
 
 ```
