@@ -73,7 +73,7 @@ puppet resource package wget
 ```
 
 
-Inspecting Resources/Types
+Misc
 -----------------------------------------------------------------
 ```sh
 facter
