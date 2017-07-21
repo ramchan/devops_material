@@ -75,6 +75,23 @@ In Git, branches are a part of your everyday development process. When you want 
 git merge <branch>
 git merge --no-ff <branch>
 ```
+This will merge staging into master
+```sh
+git checkout master
+git merge staging
+```
+
+Rebase:
+
+Merging brings two lines of development together while preserving the ancestry of each commit history.
+
+In contrast, rebasing unifies the lines of development by re-writing changes from the source branch so that they appear as children of the destination branch – effectively pretending that those commits were written on top of the destination branch all along.
+
+Below will take all newly commits from master and brings them to staging branch.
+```sh
+git checkout staging
+git rebase master
+```
 
 Resources:
 
@@ -83,3 +100,5 @@ https://walty8.com/comparison-of-git-and-svn/
 https://deveo.com/git-vs-svn/
 
 https://www.atlassian.com/git/tutorials/rewriting-history
+
+https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase
