@@ -89,3 +89,7 @@ http://tonkersten.com/2014/05/141-puppet-environments/
 
 http://www.allgoodbits.org/articles/view/38
 
+
+https://opencredo.com/overriding-puppet-resources-with-class-inheritance/
+
+https://docs.puppet.com/puppet/5.0/lang_classes.html
