@@ -81,3 +81,11 @@ facter -p
 hiera -c /etc/puppet/hiera.yaml sshservicename osfamily=Debian
 
 ```
+
+
+Resources
+-----------------------------------------------------------------
+http://tonkersten.com/2014/05/141-puppet-environments/
+
+http://www.allgoodbits.org/articles/view/38
+
